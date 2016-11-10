@@ -1,0 +1,55 @@
+@CHARSET "ISO-8859-1";
+
+
+img{
+	padding-right: 100px;
+	padding-top: 30px;
+}
+
+h1{
+	text-align: right;
+	padding-right: 30px;
+	padding-top: 23px;
+	font-family: fantasy;
+}
+
+#botones{
+	background-size: 30px;
+	background-color: orange;
+	padding: 80px;
+	padding-left: 310px; 
+}
+
+h2{
+	color: orange;
+	text-align: center;
+	font-family: fantasy;
+}
+
+#Copi {
+	text-align: center;
+	padding-top: 10px;
+}
+#botonescombustible{
+	font-family: fantasy;
+	text-align: center;
+	
+}
+
+#formulariocombustible{
+	text-align: center;
+	
+}
+
+p{
+	text-align: center;
+	font-family: fantasy;
+}
+
+#gracias{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 70px;
+	padding-top: 200px;
+}
+

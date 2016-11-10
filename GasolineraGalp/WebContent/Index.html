@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/estilo.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/miscript.js" ></script>
+
+<meta charset="ISO-8859-1">
+<title>Gasolinera Galp</title>
+</head>
+
+<body>
+
+<div class ="row">
+
+	<div class = "col-sm-6">	
+	<h1>Gasolineras</h1>		
+	</div>
+	
+	<div class = "col-sm-6">			
+	<img alt="" width="300" src="http://opcionis.com/blog/wp-content/uploads/2014/01/Bajar-potencia-contratada-luz-galp.jpg">		
+	</div>
+
+</div>
+
+<br><br><br>
+
+<div class = "row" id="botones">
+
+	<div class = "col-sm-4">
+		<button id ="botontarjeta">Tarjeta</button>
+		<br><br>
+		<form action="Validar" method="post" id="formulariotarjeta">
+			<input name="nombre" type="text" placeholder="Nombre">
+			<br><br>
+			<input name="apellido" type="text" placeholder="Apellidos">
+			<br><br>
+			<input name="numerotarjeta" type="number" placeholder="Numero de tarjeta">
+			<br><br>
+			<input name="validar" type="submit" value="Validar">
+		</form>
+	</div>
+
+
+
+
+
+	<div class = "col-sm-4">
+		<button class ="efectivo">Efectivo</button>
+		<br><br>
+		<form action="Validar" method="post" id="efectivo">
+			<input name="nombre" type="text" placeholder="Nombre">
+			<br><br>
+			<input name="apellido" type="text" placeholder="Apellidos">
+			<br><br>
+			<input name="metalico" type="number" placeholder="Cantidad a pagar">
+			<br><br>
+			<input name="validar" type="submit" value="Validar">
+		</form>
+		
+	</div>
+	
+	
+	
+	
+	
+	<div class = "col-sm-4">
+		<button>Cancelar</button>
+		<br><br>
+		<form action="" method="">
+			<textarea maxlength="10" placeholder="Escribe un comentario..." rows="5" cols="20" name = "comentario"> 
+			</textarea>
+			<br><br>
+			<input name="enviar" type="submit" value="Enviar comentario">
+		</form>
+	</div>
+
+</div>
+
+<p id="Copi">© Todos los derechos reservados - GALP Corporation</p>
+
+</body>
+</html>
